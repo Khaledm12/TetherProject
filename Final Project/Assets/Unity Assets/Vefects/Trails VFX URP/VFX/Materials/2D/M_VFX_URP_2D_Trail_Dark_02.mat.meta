@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 32c6f8d46d750aa43b0bf5f769b47e12
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242574
+  packageName: Trails VFX - URP
+  packageVersion: 1.0.2023
+  assetPath: Assets/Vefects/Trails VFX URP/VFX/Materials/M_VFX_URP_Trail_Dark_02.mat
+  uploadId: 755328
