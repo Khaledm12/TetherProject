@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dd7387dde2f523b43823a42d2c13e365
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248655
+  packageName: VR Glove
+  packageVersion: 1.0.0
+  assetPath: Assets/VR Gloves/Anim/Move.anim
+  uploadId: 578598

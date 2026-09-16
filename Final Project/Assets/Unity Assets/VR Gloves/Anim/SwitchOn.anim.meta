@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b5500a9fc856188499f1cb777a87321f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248655
+  packageName: VR Glove
+  packageVersion: 1.0.0
+  assetPath: Assets/VR Gloves/Anim/SwitchOn.anim
+  uploadId: 578598

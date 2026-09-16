@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e24728fbffeb08345a6c02b115e2cf35
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248655
+  packageName: VR Glove
+  packageVersion: 1.0.0
+  assetPath: Assets/VR Gloves/Anim/R_Rock.anim
+  uploadId: 578598

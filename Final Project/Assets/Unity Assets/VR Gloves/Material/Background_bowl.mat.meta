@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8cb18cfa82d21e24ea1d2942c154d3bb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248655
+  packageName: VR Glove
+  packageVersion: 1.0.0
+  assetPath: Assets/VR Gloves/Material/Background_bowl.mat
+  uploadId: 578598

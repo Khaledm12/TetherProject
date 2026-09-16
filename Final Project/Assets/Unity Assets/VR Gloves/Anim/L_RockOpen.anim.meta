@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5647933d2bcb80e4c921342b37e09cf2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248655
+  packageName: VR Glove
+  packageVersion: 1.0.0
+  assetPath: Assets/VR Gloves/Anim/L_RockOpen.anim
+  uploadId: 578598

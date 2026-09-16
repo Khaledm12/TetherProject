@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 75a1334b985d0b14a9e526b3edb8c4ac
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248655
+  packageName: VR Glove
+  packageVersion: 1.0.0
+  assetPath: Assets/VR Gloves/Anim/L_Grip.anim
+  uploadId: 578598

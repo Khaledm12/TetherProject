@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4b96a67b99151124684dbb6db5d80377
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248655
+  packageName: VR Glove
+  packageVersion: 1.0.0
+  assetPath: Assets/VR Gloves/Material/Glove.mat
+  uploadId: 578598

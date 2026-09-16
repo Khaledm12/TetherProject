@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f53504d9800b6e94da8f1b2470cdfcfa
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248655
+  packageName: VR Glove
+  packageVersion: 1.0.0
+  assetPath: Assets/VR Gloves/Prefab/Background_bowl.prefab
+  uploadId: 578598

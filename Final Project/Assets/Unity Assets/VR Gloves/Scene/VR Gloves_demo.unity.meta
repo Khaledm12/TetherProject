@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f2134b929f5b74245ab58e477e8d8ced
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248655
+  packageName: VR Glove
+  packageVersion: 1.0.0
+  assetPath: Assets/VR Gloves/Scene/VR Gloves_demo.unity
+  uploadId: 578598

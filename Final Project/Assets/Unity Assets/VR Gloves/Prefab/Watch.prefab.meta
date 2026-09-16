@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: db1736adee18aa744bf60cedf0c07035
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248655
+  packageName: VR Glove
+  packageVersion: 1.0.0
+  assetPath: Assets/VR Gloves/Prefab/Watch.prefab
+  uploadId: 578598

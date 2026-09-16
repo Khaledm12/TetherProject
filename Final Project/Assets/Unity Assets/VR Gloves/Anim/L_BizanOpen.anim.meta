@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c451a96ab2a482d419fde4479e14b02e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248655
+  packageName: VR Glove
+  packageVersion: 1.0.0
+  assetPath: Assets/VR Gloves/Anim/L_BizanOpen.anim
+  uploadId: 578598

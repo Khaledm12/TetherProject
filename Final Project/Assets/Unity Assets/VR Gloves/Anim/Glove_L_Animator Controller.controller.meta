@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e4f48392b2348e944ba1ae1c3980193a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248655
+  packageName: VR Glove
+  packageVersion: 1.0.0
+  assetPath: Assets/VR Gloves/Anim/Glove_L_Animator Controller.controller
+  uploadId: 578598

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c3c862995ad75744087c6e6aa695364e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248655
+  packageName: VR Glove
+  packageVersion: 1.0.0
+  assetPath: Assets/VR Gloves/Anim/L_Rock.anim
+  uploadId: 578598

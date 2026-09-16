@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bd94ce5331471c049b39b94c6417b516
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248655
+  packageName: VR Glove
+  packageVersion: 1.0.0
+  assetPath: Assets/VR Gloves/Anim/R_Ulock.anim
+  uploadId: 578598
