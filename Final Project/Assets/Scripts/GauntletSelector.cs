@@ -11,6 +11,7 @@ public class GauntletSelector : MonoBehaviour
     [SerializeField] private float maxDistance = 20f;
     [SerializeField] private Color highlightColor = Color.yellow;
     [SerializeField] private LayerMask interactableLayer;
+    [SerializeField] private Animator gauntletAnimator;
 
     [Header("Pull - Launch")]
     [SerializeField] private Transform handTransform;
@@ -63,6 +64,7 @@ public class GauntletSelector : MonoBehaviour
     private GameObject activeTrail;
     private enum GauntletState { Idle, Pulling, Holding}
     private GauntletState state = GauntletState.Idle;
+    static readonly int CaughtHash = Animator.StringToHash("Release");
 
     private Rigidbody suspendedObject;
     private bool suspendWasPressed = false;
@@ -249,6 +251,13 @@ public class GauntletSelector : MonoBehaviour
         pullStartTime = Time.time;
         rb.useGravity = false;
 
+        if (gauntletAnimator != null)
+        {
+            gauntletAnimator.ResetTrigger(CaughtHash);
+            gauntletAnimator.speed = 1f;
+            gauntletAnimator.Play("R_Grip", 0, 0f);
+        }
+
         Vector3 toHandVec = handTransform.position - rb.position;
         float distance = toHandVec.magnitude;
         Vector3 toHand = toHandVec / distance;
@@ -309,6 +318,8 @@ public class GauntletSelector : MonoBehaviour
 
     private void ReleaseHeld()
     {
+        if (gauntletAnimator != null) gauntletAnimator.SetTrigger(CaughtHash);
+
         if (heldInteractable != null && nearFarInteractor != null && interactionManager != null)
         {
             interactionManager.SelectExit(
@@ -322,6 +333,8 @@ public class GauntletSelector : MonoBehaviour
 
     private void EndPull()
     {
+        if (gauntletAnimator != null) gauntletAnimator.SetTrigger(CaughtHash);
+
         if (pulledObject != null)
         {
             pulledObject.useGravity = true;
@@ -382,6 +395,8 @@ public class GauntletSelector : MonoBehaviour
         if (handTransform == null) Debug.LogError("GauntletSelector: handTransform not assigned", this);
         if (nearFarInteractor == null) Debug.LogError("GauntletSelector: nearFarInteractor not assigned", this);
         if (interactionManager == null) Debug.LogError("GauntletSelector: interactionManager not assigned", this);
+
+        if (gauntletAnimator != null) gauntletAnimator.speed = 0f;
     }
 
     private void SuspendHeld()
