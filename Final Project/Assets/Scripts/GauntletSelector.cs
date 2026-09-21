@@ -405,6 +405,10 @@ public class GauntletSelector : MonoBehaviour
 
         Rigidbody rb = heldInteractable.GetComponent<Rigidbody>();
         if (rb == null) return;
+
+        //glove animation
+        if (gauntletAnimator != null) gauntletAnimator.SetTrigger(CaughtHash);
+
         state = GauntletState.Idle;
         // Release from hand first, then pin in place
         interactionManager.SelectExit(
